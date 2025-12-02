@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - JourneyJoy Travel</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation (Same as Homepage) -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">  
+                <span> 🌍 JourneyJoy</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="#">Destinations</a>
+                <a href="contact.html" class="active">Contact</a>
+                <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p class="subtitle">Have questions about your next adventure? We're here to help you plan the perfect trip!</p>
+        </div>
+    </section>
+
+    <!-- Contact Main Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send us a Message</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" placeholder="your@email.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="+1 (555) 123-4567">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="destination">Destination Interest</label>
+                            <select id="destination">
+                                <option value="">Select a Destination</option>
+                                <option value="ethiopia">Ethiopia - Gondar Castle</option>
+                                <option value="italy">Italy - Positano Villages</option>
+                                <option value="brazil">Brazil - Rio de Janeiro</option>
+                                <option value="other">Other Destination</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" placeholder="Tell us about your travel plans..." rows="6" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-wrapper">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="contact-info-box">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Visit Our Office</h3>
+                                <p>Bole Road, Addis Ababa<br>Ethiopia 🇪🇹 </p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Call Us</h3>
+                                <p>+251-909-542-378<br> +251-904-927-512<br> Mon-Fri: 9AM-6PM EST</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p>pomiyilma@gmail.com<br>minchaledagnew11@gamil.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 9AM - 6PM<br>Saturday: 10AM - 4PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="text-center mb-large">
+                <h2>Frequently Asked Questions</h2>
+                <p class="subtitle">Find quick answers to common questions about our travel services.</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> How do I book a trip?</h3>
+                    <p>You can book your trip online, by phone, or at our office. For trips to other countries, book 3 months early.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> What's your cancellation policy?</h3>
+                    <p>Full refund if cancelled 30+ days before travel. 50% refund for 15-30 days. No refund within 14 days of travel. Travel insurance is recommended.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> Do you offer group discounts?</h3>
+                    <p>Yes! Groups of 4+ receive 10% discount. Groups of 8+ receive 15% discount. Contact us for custom group packages.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3><i class="fas fa-question-circle"></i> What documents do I need?</h3>
+                    <p>Valid passport (6+ months validity), visas if required, travel insurance, and vaccination records depending on destination. We'll guide you through all requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as Homepage) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo white">
+                        <span>JourneyJoy</span>
+                    </div>
+                    <p class="purpose">Crafting unforgettable travel experiences since 2025. We help you discover the world's most beautiful destinations.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="#">Destinations</a></li>
+                        <li><a href="contact.html" >Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Bole Road, Addis Ababa</li>
+                        <li><i class="fas fa-phone"></i> +251-909-542-378 <br> +251-904-927-512</li>
+                        <li><i class="fas fa-envelope"></i>pomiyilma@gmail.com <br> minchaledagnew11@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 JourneyJoy Travel Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
